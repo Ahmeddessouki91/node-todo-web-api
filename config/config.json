@@ -1,0 +1,7 @@
+{
+    "development": {
+        "PORT": 3000,
+        "LOCAL_MONGODB_URI": "mongodb://localhost:27017/TodoApp",
+        "JWT_SECRET": "askdjlknja2156as2da5s1d51asd51asd18"
+    }
+}
