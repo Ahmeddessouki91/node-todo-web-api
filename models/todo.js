@@ -18,6 +18,7 @@ var Todo = mongoose.model('Todo', {
     _creator: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
+        ref:'User'
     }
 });
 
